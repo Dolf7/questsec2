@@ -1,0 +1,148 @@
+Dalam menjalankan linux, pengguna akan lebih mahir menggunakannya lewat terminal yang ada di setiap linux.
+Terminal pada dasarnya adalah command-line interface yang menjalanakan bash bash.
+
+Di dalam terminal Anda memiliki apa yang dikenal sebagai shell.
+Ini adalah bagian dari sistem operasi yang menentukan bagaimana terminal akan berperilaku dan menjaga setelah menjalankan (atau mengeksekusi) perintah untuk Anda.
+ Ada berbagai shell yang tersedia tetapi yang paling umum disebut bash yang merupakan singkatan dari Bourne again shell.
+Berikut adalah perintah-perintah dasar yang dapat dijalankan pada terminal untuk mengoprasikan suatu sistem linux
+
+1. pwd command
+Perintah dasar Linux pwd berfungsi untuk mencari path dari direktori (folder) yang Anda gunakan saat ini.
+
+2. cd command
+Untuk menjelajahi file dan direktori Linux, gunakan perintah cd.
+
+cd documents/tugas/ maka anda akan tearah kedalam directory tugas yang ada dalam directory documents
+
+Berikut beberapa jalan pintas (shortcut) untuk memudahkan navigasi:
+
+- cd .. (dengan dua tanda titik) untuk memindahkan satu direktori ke atas.
+- cd jika ingin langsung membuka folder home.
+- cd- (dengan tanda penghubung) untuk berpindah ke direktori sebelumnya.
+
+3. ls command
+Is merupakan perintah dasar pada Linux yang digunakan untuk melihat konten atau isi direktori.
+
+Berikut beberapa variasi yang bisa dikombinasikan dengan perintah dasar Linux Is:
+
+Is -R akan membuat daftar semua file yang ada di sub-direktori.
+Is -a akan menampilkan file yang tersembunyi.
+Is -al akan membuat daftar file dan direktori yang memuat informasi mendetail.
+
+4. cat command
+cat (akronim dri concatenate) Perintah ini berfungsi untuk membuat daftar konten atau isi file pada standard output (sdout).
+
+Berikut beberapa cara untuk menggunakan perintah cat:
+
+cat > filename untuk membuat file baru.
+cat filename1 filename2>filename3 untuk menggabungkan dua file (1 dan 2) dan menyimpan outputnya di file baru (3).
+cat filename | tr a-z A-Z >output.txt untuk mengonversi file ke penggunaan huruf besar atau huruf kecil.
+5. cp command
+Gunakan perintah dasar Linux cp untuk menyalin file dari direktori saat ini ke direktori yang berbeda. 
+
+6. mv command
+Fungsi utama command mv adalah untuk memindahkan file meskipun sebenarnya bisa digunakan untuk mengganti atau mengubah nama file.
+
+7. mkdir command
+Untuk membuat direktori baru, Anda bisa menggunakan perintah dasar Linux mkdir. Sebagai contoh, jika Anda mengetik mkdir Music, direktori baru yang muncul disebut Music.
+
+Berikut beberapa command mkdir tambahan:
+
+Untuk membuat direktori baru di dalam direktori lain, gunakan command dasar Linux mkdir Music/Newfile.
+Gunakan opsi p (parents) untuk membuat direktori di antara dua direktori yang sudah ada. Misalnya, mkdir -p Music/2020/Newfile untuk membuat file baru “2020”.
+
+8. rmdir command
+Jika ingin menghapus direktori, gunakan perintah rmdir. Namun, rmdir hanya boleh digunakan untuk menghapus direktori kosong.
+
+9. rm command
+rm adalah perintah dasar pada Linux yang berfungsi untuk menghapus direktori beserta isinya. Jika hanya ingin menghapus direktorinya saja – alternatif command selain rmdir – gunakan rm -r.
+
+10. touch command
+touch adalah perintah dasar Linux yang memperbolehkan Anda membuat file baru yang kosong melalui baris perintah Linux. 
+
+11. locate command
+locate digunakan untuk mencari file, fungsinya sama seperti command pencarian di OS Windows. 
+
+Untuk mencari file yang memuat dua atau lebih dari dua kata, gunakan tanda bintang (*). Misalnya, perintah locate -i school*note akan mencari file yang pada namanya termuat kata “school” dan “note”, entah itu huruf besar atau kecil.
+
+12. find command
+Sama seperti command locate, perintah find juga bisa digunakan untuk mencari file dan direktori dalam directory yang diberi
+Berikut beberapa variasi yang bisa dipasangkan dengan find:
+
+find . – name notes.txt untuk mencari file di dalam direktori yang digunakan saat ini.
+/ -type d -name notes.txt untuk mencari direktori.
+
+13. grep command
+Dengan command ini, kita bisa melakukan pencarian di semua teks di dalam file yang diberikan.
+
+
+14. sudo command
+sudo merupakan singkatan dari “SuperUser Do” dan berfungsi untuk menjalankan task yang memerlukan hak akses (permission) administrative atau root.
+
+15. df command
+Untuk mendapatkan laporan tentang penggunaan disk space sistem, gunakan perintah df. Laporan yang diberikan hadir dalam bentuk persentase dan satuan KB. Bila ingin melihat laporan berupa satuan megabyte, ketik df -m.
+
+16. du command
+du merupakan perintah dasar Linux yang berfungsi untuk mengecek seberapa banyak space yang digunakan oleh suatu file atau direktori. 
+
+17. head command
+Perintah head digunakan untuk melihat baris pertama dari semua file teks. Secara default, perintah ini akan menampilkan sepuluh baris pertama.
+18. tail command
+menampilkan sepuluh baris terakhir dari suatu file. Misalnya, tail -n filename.ext.
+
+19. diff command
+diff adalah perintah dasar Linux yang membandingkan konten atau isi dua file berdasarkan baris demi baris.
+Format paling sederhana dari command dasar Linux ini adalah diff file1.ext file2.ext.
+
+20. tar command
+tar merupakan perintah Linux yang paling banyak digunakan untuk mengarsipkan banyak file ke dalam tarball 
+– format file Linux yang serupa dengan format zip, di mana tindakan kompresi bersifat opsional.
+
+Perintah dasar sistem operasi Linux ini cukup kompleks dengan daftar fungsi yang panjang, seperti menambahkan file baru ke arsip yang sudah ada, membuat daftar konten suatu arsip, mengekstrak konten dari arsip, dan masih banyak lagi. Untuk mengetahui lebih banyak tentang fungsi lainnya, silakan cek contoh-contoh sederhana di sini.
+
+21. chmod command
+chmod adalah perintah dasar Linux lainnya yang digunakan untuk membaca, menulis, dan menjalankan permission (hak akses) file dan direktori.
+
+22. chown command
+Pada sistem operasi Linux, semua file dimiliki oleh user khusus. Sebagai perintah dasar pada Linux, chown memungkinkan Anda untuk mengubah atau mentransfer kepemilikan file ke username khusus atau yang spesifik. Misalnya, chown linuxuser2 file.ext akan menentukan linuxuser2 sebagai pemilik file.ext.
+
+23. jobs command
+Perintah jobs akan menampilkan semua jobs saat ini beserta dengan statusnya.
+Pada dasarnya job merupakan proses yang dimulai oleh shell.
+
+24. kill command
+Untuk mengehentikan program yang sedang berjalan melalui terminal
+
+Totalnya ada 64 sinyal yang dapat digunakan, tapi biasanya orang-orang hanya menggunakan dua sinyal, yakni:
+
+-SIGTERM (15) – meminta program untuk berhenti bekerja dan memberikannya waktu untuk menyimpan semua progress. Jika tidak ada sinyal khusus yang ditentukan ketika memasukkan perintah kill, sinyal inilah yang akan digunakan. 
+-SIGKILL (9) – memaksa program untuk berhenti bekerja saat itu juga. Progress yang tidak tersimpan akan hilang.
+Selain sinyal, Anda juga harus tahu nomor identifikasi proses (process identification number – PID) dari sebuah program yang hendak dihentikan (kill). Jika tidak tahu PID-nya, Anda bisa menjalankan command ps ux.
+
+Setelah mengetahui sinyal yang ingin digunakan dan PID program, masukkan syntax ini: kill [signal option] PID.
+
+25. ping command
+Command ping berfungsi untuk mengecek status konektivitas ke server. Misalnya, dengan menambahkan ping google.com, command akan mengecek apakah Anda sudah terhubung ke Google atau belum dan juga mengukur waktu respons.
+
+26. wget command
+Perintah dasar Linux ini sangat berguna – Anda bahkan bisa mengunduh file dari internet dengan bantuan command wget. Anda hanya perlu mengetikkan wget yang diikuti dengan link unduhan.
+
+27. uname command
+uname, akronim dari Unix Name, adalah perintah dasar sistem operasi Linux yang akan mencetak informasi lengkap mengenai sistem Linux, misalnya nama mesin, sistem operasi, kernel, dan lain-lain.
+
+28. top command
+command top akan menampilkan daftar proses yang sedang berlangsung dan seberapa banyak ruang CPU yang digunakan oleh tiap proses tersebut.
+
+29. history command
+untuk melihat history perintah apa saja yang telah dibuat di terminal
+
+30. mand command
+untuk memberi penjelasan tentang suatu command secara umum.
+
+31. zip, unzip command
+Gunakan perintah zip untuk meng-compress file ke arsip zip dan perintah unzip untuk mengekstrak file zip ke arsip zip.
+
+32. hostname command
+hostname merupakan perintah dasar pada Linux yang dapat Anda gunakan jika ingin mengetahui nama host/network.
+Dengan menambahkan -I di akhir command, alamat IP jaringan akan ditampilkan.
+
