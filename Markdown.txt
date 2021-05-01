@@ -1,0 +1,86 @@
+Markdown adalah bahasa markup ringan yang dapat Anda gunakan untuk menambahkan elemen pemformatan ke dokumen teks teks biasa. 
+Dibuat oleh John Gruber pada tahun 2004, Markdown sekarang menjadi salah satu bahasa markup paling populer di dunia.
+
+Anda dapat menambahkan elemen pemformatan Markdown ke file teks biasa menggunakan aplikasi editor teks.
+Atau dapat menggunakan salah satu dari banyak aplikasi Penurunan Harga untuk sistem operasi macOS, Windows, Linux, iOS, dan Android.
+ Ada juga beberapa aplikasi berbasis web yang dirancang khusus untuk menulis dalam Markdown.
+
+Bergantung pada aplikasi yang Anda gunakan, Anda mungkin tidak dapat melihat pratinjau dokumen yang diformat secara real time.
+ Tapi tidak apa-apa. Menurut Gruber, sintaks Markdown dirancang agar dapat dibaca dan tidak mengganggu, sehingga teks dalam file markdown dapat dibaca meskipun tidak dirender.
+
+Online markdown editor 
+-Dillinger
+
+Digunakan untuk apa?
+-Readme Files (Github, etc)
+-Forum & Blogs
+-Banyak di gunakan di Static Site Generator
+-Websites
+-Documents, etc
+
+Aplikasi untuk Markdown dalam documents:
+
+-Mac: MacDown, iA Writer, atau Marked
+-iOS / Android: Penulis iA
+-Windows: ghostwriter atau Markdown Monster
+-Linux: ReText atau ghostwriter
+-Web: Dillinger atau StackEdit
+
+Markdown Editors:
+-Text Editor (VSCode, Atom, etc)
+-MarkPad
+-HarooPad
+-MarkdownPad 2
+-Typora
+-#VSCode extention = Auto-Open Markdown Preview
+
+Markdown dalam Github
+->Headers:
+# This is an <h1> tag
+## This is an <h2> tag
+###### This is an <h6> tag
+
+->Emphasis
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
+
+->List
+> Unordered
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+
+->Ordered
+1. Item 1
+2. Item 2
+3. Item 3
+   1. Item 3a
+   2. Item 3b
+
+->Images
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
+->Links
+http://github.com - automatic!
+[GitHub](http://github.com)
+
+
+
+->Blockquotes
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+
+->Inline code 
+I think you should use an
+`<addr>` element here instead.
+
+
