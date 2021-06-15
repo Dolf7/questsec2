@@ -1,0 +1,118 @@
+<<Format>>
+levelX
+ID
+Passoword
+<<>>
+
+level0
+bandit0
+bandit0
+#using cat
+
+level1
+bandit1
+boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
+level2
+bandit2
+CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+
+level3
+bandit3
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+
+level4
+bandit4
+pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+
+level5
+bandit5
+koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+level6
+bandit6
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+
+level7
+bandit7
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
+level8
+bandit8
+cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
+level9
+bandit9
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+level10
+bandit 10
+truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
+level11
+bandit11
+IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+cat data.txt
+
+
+level12
+bandit12
+5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+level 13
+bandit 13
+8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+level 14
+bandit 14
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+
+level 15
+bandit 15
+BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+level 16
+bandit 16
+cluFn7wTiGryunymYOu4RcffSxQluehd
+
+level17
+bandit17
+xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
+
+level18
+bandit18
+kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+
+level19
+bandit19
+IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+
+
+level20
+bandit20
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+level21
+bandit21
+gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+
+level22
+bandit22 
+Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+
+level 23
+bandit23
+jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+
+level24
+bandit 24
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+level 25
+bandit 25
+uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+
+level 26
+bandit26
+5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
